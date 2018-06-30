@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name                   =   "GoloCrypto"
-    spec.version                =   "1.0.1"
+    spec.version                =   "1.0.2"
     spec.summary                =   "GoloCrypto"
     spec.license                =   { :type => 'MIT', :file => 'LICENSE.md' }
     spec.homepage               =   "https://github.com/Monserg/GoloGrypto.git"

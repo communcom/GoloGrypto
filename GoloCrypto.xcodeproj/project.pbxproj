@@ -29,7 +29,7 @@
 		B1422C2520E7F8410060DC78 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
 		B1422C2620E7F8410060DC78 /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
 		B1422C2720E7F8410060DC78 /* hasher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hasher.c; sourceTree = "<group>"; };
-		B1422C2820E7F8410060DC78 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		B1422C2820E7F8410060DC78 /* GoloCrypto.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = GoloCrypto.modulemap; sourceTree = "<group>"; };
 		B1422C2920E7F8410060DC78 /* memzero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memzero.h; sourceTree = "<group>"; };
 		B1422C2A20E7F8410060DC78 /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
 		B1422C2C20E7F8410060DC78 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				B1422C2520E7F8410060DC78 /* ripemd160.h */,
 				B1422C2620E7F8410060DC78 /* sha2.c */,
 				B1422C2720E7F8410060DC78 /* hasher.c */,
-				B1422C2820E7F8410060DC78 /* module.modulemap */,
+				B1422C2820E7F8410060DC78 /* GoloCrypto.modulemap */,
 				B1422C2920E7F8410060DC78 /* memzero.h */,
 				B1422C2A20E7F8410060DC78 /* base58.h */,
 				B1422C2C20E7F8410060DC78 /* crypto.h */,

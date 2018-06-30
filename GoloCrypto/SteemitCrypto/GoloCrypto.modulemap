@@ -11,7 +11,7 @@
 //}
 
 
-framework module Crypto {
+framework module GoloCrypto {
     umbrella header "GoloCrypto-umbrella.h"
     header "base58.h"
     header "hasher.h"
@@ -20,7 +20,6 @@ framework module Crypto {
     header "options.h"
     header "memzero.h"
     header "crypto.h"
-
     export *
     module * { export * }
 }

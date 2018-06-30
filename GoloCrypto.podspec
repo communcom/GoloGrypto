@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
     spec.source_files           =   'GoloCrypto/**/*.{h,swift}', 'GoloCrypto/SteemitCrypto/*.{c,h}', 'GoloCrypto/SteemitCrypto/include/*.{c,h}'
     spec.public_header_files    =   'GoloCrypto/*.h'
     spec.pod_target_xcconfig    =   { 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/GoloCrypto/GoloCrypto/SteemitCrypto/**','LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/GoloCrypto/GoloCrypto/' }
-    spec.preserve_paths         =   'GoloCrypto/SteemitCrypto/module.modulemap'
+    #spec.preserve_paths         =   "GoloCrypto/SteemitCrypto/module.modulemap"
 
 end

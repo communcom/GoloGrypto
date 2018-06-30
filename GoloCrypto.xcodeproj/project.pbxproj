@@ -27,7 +27,6 @@
 		B1422BD320E7CAEF0060DC78 /* GoloCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoloCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1422BD620E7CAEF0060DC78 /* GoloCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoloCrypto.h; sourceTree = "<group>"; };
 		B1422BD720E7CAEF0060DC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1422BDF20E7CB400060DC78 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B1422C0220E7D2DF0060DC78 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
 		B1422C0320E7D2DF0060DC78 /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
 		B1422C0420E7D2DF0060DC78 /* hasher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hasher.c; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		B1422C0D20E7D2DF0060DC78 /* memzero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
 		B1422C0E20E7D2DF0060DC78 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
 		B1422C1D20E7D8AB0060DC78 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		B1422C1F20E7ECAB0060DC78 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,19 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				B1422C0120E7D2DF0060DC78 /* SteemitCrypto */,
-				B1422BDE20E7CB200060DC78 /* ProjectModule */,
 				B1422BD620E7CAEF0060DC78 /* GoloCrypto.h */,
 				B1422BD720E7CAEF0060DC78 /* Info.plist */,
 			);
 			path = GoloCrypto;
-			sourceTree = "<group>";
-		};
-		B1422BDE20E7CB200060DC78 /* ProjectModule */ = {
-			isa = PBXGroup;
-			children = (
-				B1422BDF20E7CB400060DC78 /* module.modulemap */,
-			);
-			path = ProjectModule;
 			sourceTree = "<group>";
 		};
 		B1422C0120E7D2DF0060DC78 /* SteemitCrypto */ = {
@@ -100,6 +91,7 @@
 				B1422C0720E7D2DF0060DC78 /* include */,
 				B1422C0D20E7D2DF0060DC78 /* memzero.c */,
 				B1422C0520E7D2DF0060DC78 /* memzero.h */,
+				B1422C1F20E7ECAB0060DC78 /* module.modulemap */,
 				B1422C0920E7D2DF0060DC78 /* options.h */,
 				B1422C0C20E7D2DF0060DC78 /* ripemd160.c */,
 				B1422C0220E7D2DF0060DC78 /* ripemd160.h */,

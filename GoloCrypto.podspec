@@ -5,16 +5,17 @@ Pod::Spec.new do |spec|
     spec.swift_version          =   "4.0"
 
     spec.summary                =   "Swift framework for Golos.io"
-    spec.homepage               =   "https://golos.io"
+    spec.homepage               =   "https://github.com/Monserg/GoloGrypto"
     spec.social_media_url       =   "https://golos.io"
     spec.license                =   { :type => 'MIT', :file => 'LICENSE.md' }
-    spec.author                 =   "msm72"
+    spec.author                 =   { "msm72" => "msm72@yahoo.com" }
 
-    spec.version                =   "1.0.4"
-    spec.source                 =   { :git => "https://github.com/Monserg/GoloGrypto.git", :tag => "1.0.4" }
+    spec.version                =   "1.0.5"
+    spec.source                 =   { :git => "https://github.com/Monserg/GoloGrypto.git", :tag => "1.0.5" }
 
-    spec.source_files           =   "GoloCrypto/**/*.{h,swift}", "GoloCrypto/SteemitCrypto/*.{c,h}", "GoloCrypto/SteemitCrypto/include/*.{c,h}"
-    spec.pod_target_xcconfig    =   { "SWIFT_INCLUDE_PATHS" => "$(SRCROOT)/GoloCrypto/GoloCrypto/SteemitCrypto/**" }
-    spec.preserve_paths         =   "GoloCrypto/ProjectModule/module.modulemap"
+    spec.source_files           =   'GoloCrypto/**/*.{h,swift}', 'GoloCrypto/SteemitCrypto/*.{c,h}', 'GoloCrypto/SteemitCrypto/include/*.{c,h}'
+    spec.public_header_files    =   'GoloCrypto/*.h'
+    spec.pod_target_xcconfig    =   { 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/GoloCrypto/GoloCrypto/SteemitCrypto/**','LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/GoloCrypto/GoloCrypto/' }
+    spec.preserve_paths         =   'GoloCrypto/SteemitCrypto/module.modulemap'
 
 end

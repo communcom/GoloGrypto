@@ -90,7 +90,7 @@
 				B1422C2820E7F8410060DC78 /* module.modulemap */,
 				B1422C2920E7F8410060DC78 /* memzero.h */,
 				B1422C2A20E7F8410060DC78 /* base58.h */,
-				B1422C2B20E7F8410060DC78 /* include */,
+				B1422C2C20E7F8410060DC78 /* crypto.h */,
 				B1422C2D20E7F8410060DC78 /* options.h */,
 				B1422C2E20E7F8410060DC78 /* hasher.h */,
 				B1422C2F20E7F8410060DC78 /* sha2.h */,
@@ -99,14 +99,6 @@
 				B1422C3320E7F8410060DC78 /* base58.c */,
 			);
 			path = SteemitCrypto;
-			sourceTree = "<group>";
-		};
-		B1422C2B20E7F8410060DC78 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				B1422C2C20E7F8410060DC78 /* crypto.h */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

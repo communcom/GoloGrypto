@@ -6,6 +6,6 @@ module Crypto [system][extern_c] {
     header "ripemd160.h"
     header "options.h"
     header "memzero.h"
-    header "include/crypto.h"
+    header "crypto.h"
     export *
 }

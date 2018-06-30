@@ -57,6 +57,7 @@
 		B1422BC920E7CAEF0060DC78 = {
 			isa = PBXGroup;
 			children = (
+				B1422C1D20E7D8AB0060DC78 /* LICENSE.md */,
 				B1422BD520E7CAEF0060DC78 /* GoloCrypto */,
 				B1422BD420E7CAEF0060DC78 /* Products */,
 			);
@@ -73,7 +74,6 @@
 		B1422BD520E7CAEF0060DC78 /* GoloCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				B1422C1D20E7D8AB0060DC78 /* LICENSE.md */,
 				B1422C0120E7D2DF0060DC78 /* SteemitCrypto */,
 				B1422BDE20E7CB200060DC78 /* ProjectModule */,
 				B1422BD620E7CAEF0060DC78 /* GoloCrypto.h */,

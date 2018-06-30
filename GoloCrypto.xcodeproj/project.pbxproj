@@ -20,7 +20,7 @@
 		B1422C1820E7D2DF0060DC78 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422C0C20E7D2DF0060DC78 /* ripemd160.c */; };
 		B1422C1920E7D2DF0060DC78 /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422C0D20E7D2DF0060DC78 /* memzero.c */; };
 		B1422C1A20E7D2DF0060DC78 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422C0E20E7D2DF0060DC78 /* base58.c */; };
-		B1422C1C20E7D7E50060DC78 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B1422C1B20E7D7E50060DC78 /* LICENSE.md */; };
+		B1422C1E20E7D8AB0060DC78 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B1422C1D20E7D8AB0060DC78 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 		B1422C0C20E7D2DF0060DC78 /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
 		B1422C0D20E7D2DF0060DC78 /* memzero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
 		B1422C0E20E7D2DF0060DC78 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
-		B1422C1B20E7D7E50060DC78 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../../../../../Desktop/LICENSE.md; sourceTree = "<group>"; };
+		B1422C1D20E7D8AB0060DC78 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		B1422BD520E7CAEF0060DC78 /* GoloCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				B1422C1B20E7D7E50060DC78 /* LICENSE.md */,
+				B1422C1D20E7D8AB0060DC78 /* LICENSE.md */,
 				B1422C0120E7D2DF0060DC78 /* SteemitCrypto */,
 				B1422BDE20E7CB200060DC78 /* ProjectModule */,
 				B1422BD620E7CAEF0060DC78 /* GoloCrypto.h */,
@@ -193,7 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1422C1C20E7D7E50060DC78 /* LICENSE.md in Resources */,
+				B1422C1E20E7D8AB0060DC78 /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

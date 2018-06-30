@@ -8,12 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		B1422BD820E7CAEF0060DC78 /* GoloCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BD620E7CAEF0060DC78 /* GoloCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1422BEE20E7CB8D0060DC78 /* ripemd160.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BE120E7CB8C0060DC78 /* ripemd160.h */; };
+		B1422BEF20E7CB8D0060DC78 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422BE220E7CB8C0060DC78 /* sha2.c */; };
+		B1422BF020E7CB8D0060DC78 /* hasher.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422BE320E7CB8C0060DC78 /* hasher.c */; };
+		B1422BF120E7CB8D0060DC78 /* memzero.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BE420E7CB8C0060DC78 /* memzero.h */; };
+		B1422BF220E7CB8D0060DC78 /* base58.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BE520E7CB8C0060DC78 /* base58.h */; };
+		B1422BF320E7CB8D0060DC78 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BE720E7CB8C0060DC78 /* crypto.h */; };
+		B1422BF420E7CB8D0060DC78 /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BE820E7CB8C0060DC78 /* options.h */; };
+		B1422BF520E7CB8D0060DC78 /* hasher.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BE920E7CB8C0060DC78 /* hasher.h */; };
+		B1422BF620E7CB8D0060DC78 /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = B1422BEA20E7CB8C0060DC78 /* sha2.h */; };
+		B1422BF720E7CB8D0060DC78 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422BEB20E7CB8C0060DC78 /* ripemd160.c */; };
+		B1422BF820E7CB8D0060DC78 /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422BEC20E7CB8C0060DC78 /* memzero.c */; };
+		B1422BF920E7CB8D0060DC78 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = B1422BED20E7CB8C0060DC78 /* base58.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1422BD320E7CAEF0060DC78 /* GoloCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoloCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1422BD620E7CAEF0060DC78 /* GoloCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoloCrypto.h; sourceTree = "<group>"; };
 		B1422BD720E7CAEF0060DC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1422BDF20E7CB400060DC78 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		B1422BE120E7CB8C0060DC78 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		B1422BE220E7CB8C0060DC78 /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
+		B1422BE320E7CB8C0060DC78 /* hasher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hasher.c; sourceTree = "<group>"; };
+		B1422BE420E7CB8C0060DC78 /* memzero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memzero.h; sourceTree = "<group>"; };
+		B1422BE520E7CB8C0060DC78 /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		B1422BE720E7CB8C0060DC78 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		B1422BE820E7CB8C0060DC78 /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		B1422BE920E7CB8C0060DC78 /* hasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hasher.h; sourceTree = "<group>"; };
+		B1422BEA20E7CB8C0060DC78 /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		B1422BEB20E7CB8C0060DC78 /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
+		B1422BEC20E7CB8C0060DC78 /* memzero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
+		B1422BED20E7CB8C0060DC78 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +71,47 @@
 		B1422BD520E7CAEF0060DC78 /* GoloCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				B1422BE020E7CB8C0060DC78 /* SteemitCrypto */,
+				B1422BDE20E7CB200060DC78 /* ProjectModule */,
 				B1422BD620E7CAEF0060DC78 /* GoloCrypto.h */,
 				B1422BD720E7CAEF0060DC78 /* Info.plist */,
 			);
 			path = GoloCrypto;
+			sourceTree = "<group>";
+		};
+		B1422BDE20E7CB200060DC78 /* ProjectModule */ = {
+			isa = PBXGroup;
+			children = (
+				B1422BDF20E7CB400060DC78 /* module.modulemap */,
+			);
+			path = ProjectModule;
+			sourceTree = "<group>";
+		};
+		B1422BE020E7CB8C0060DC78 /* SteemitCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				B1422BE120E7CB8C0060DC78 /* ripemd160.h */,
+				B1422BE220E7CB8C0060DC78 /* sha2.c */,
+				B1422BE320E7CB8C0060DC78 /* hasher.c */,
+				B1422BE420E7CB8C0060DC78 /* memzero.h */,
+				B1422BE520E7CB8C0060DC78 /* base58.h */,
+				B1422BE620E7CB8C0060DC78 /* include */,
+				B1422BE820E7CB8C0060DC78 /* options.h */,
+				B1422BE920E7CB8C0060DC78 /* hasher.h */,
+				B1422BEA20E7CB8C0060DC78 /* sha2.h */,
+				B1422BEB20E7CB8C0060DC78 /* ripemd160.c */,
+				B1422BEC20E7CB8C0060DC78 /* memzero.c */,
+				B1422BED20E7CB8C0060DC78 /* base58.c */,
+			);
+			path = SteemitCrypto;
+			sourceTree = "<group>";
+		};
+		B1422BE620E7CB8C0060DC78 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B1422BE720E7CB8C0060DC78 /* crypto.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +121,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1422BF120E7CB8D0060DC78 /* memzero.h in Headers */,
+				B1422BF420E7CB8D0060DC78 /* options.h in Headers */,
+				B1422BF620E7CB8D0060DC78 /* sha2.h in Headers */,
 				B1422BD820E7CAEF0060DC78 /* GoloCrypto.h in Headers */,
+				B1422BF220E7CB8D0060DC78 /* base58.h in Headers */,
+				B1422BEE20E7CB8D0060DC78 /* ripemd160.h in Headers */,
+				B1422BF520E7CB8D0060DC78 /* hasher.h in Headers */,
+				B1422BF320E7CB8D0060DC78 /* crypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1422BF720E7CB8D0060DC78 /* ripemd160.c in Sources */,
+				B1422BF920E7CB8D0060DC78 /* base58.c in Sources */,
+				B1422BF820E7CB8D0060DC78 /* memzero.c in Sources */,
+				B1422BF020E7CB8D0060DC78 /* hasher.c in Sources */,
+				B1422BEF20E7CB8D0060DC78 /* sha2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.golos.GoloCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/GoloCrypto/ProjectModule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.golos.GoloCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/GoloCrypto/ProjectModule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

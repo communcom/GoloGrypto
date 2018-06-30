@@ -1,0 +1,18 @@
+module GoloCryptoPrivate {
+    // http://nsomar.com/project-and-private-headers-in-a-swift-and-objective-c-framework/
+    
+    header "../SteemitCrypto/base58.h"
+    header "../SteemitCrypto/base58.c"
+    header "../SteemitCrypto/hasher.h"
+    header "../SteemitCrypto/hasher.c"
+    header "../SteemitCrypto/sha2.h"
+    header "../SteemitCrypto/sha2.c"
+    header "../SteemitCrypto/ripemd160.h"
+    header "../SteemitCrypto/ripemd160.c"
+    header "../SteemitCrypto/options.h"
+    header "../SteemitCrypto/memzero.h"
+    header "../SteemitCrypto/memzero.c"
+    header "../SteemitCrypto/include/crypto.h"
+    
+    export *
+}

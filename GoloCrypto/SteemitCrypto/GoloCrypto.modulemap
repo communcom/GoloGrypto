@@ -12,7 +12,7 @@
 
 
 framework module GoloCrypto {
-    umbrella header "GoloCrypto-umbrella.h"
+    umbrella header "GoloCrypto.h"
     header "base58.h"
     header "hasher.h"
     header "sha2.h"

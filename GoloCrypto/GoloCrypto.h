@@ -1,16 +1,16 @@
 //
-//  GoloCrypto-umbrella.h
+//  GoloCrypto.h
 //  GoloCrypto
 //
 //  Created by msm72 on 30.06.2018.
 //  Copyright © 2018 golos. All rights reserved.
 //
 
-#ifndef GoloCrypto_umbrella_h
-#define GoloCrypto_umbrella_h
+#ifndef GoloCrypto_h
+#define GoloCrypto_h
 
 
-#endif /* GoloCrypto_umbrella_h */
+#endif /* GoloCrypto_h */
 
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>

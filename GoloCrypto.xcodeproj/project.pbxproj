@@ -39,7 +39,7 @@
 		B1422C3020E7F8410060DC78 /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
 		B1422C3120E7F8410060DC78 /* memzero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
 		B1422C3320E7F8410060DC78 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
-		B1422C4020E809BA0060DC78 /* GoloCrypto-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoloCrypto-umbrella.h"; sourceTree = "<group>"; };
+		B1422C4020E809BA0060DC78 /* GoloCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoloCrypto.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				B1422C2420E7F8410060DC78 /* SteemitCrypto */,
-				B1422C4020E809BA0060DC78 /* GoloCrypto-umbrella.h */,
+				B1422C4020E809BA0060DC78 /* GoloCrypto.h */,
 				B1422BD720E7CAEF0060DC78 /* Info.plist */,
 			);
 			path = GoloCrypto;
